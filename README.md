@@ -1,5 +1,7 @@
 # lukman-ss/config
 
+![Hero Banner](docs/hero_banner.png)
+
 Standalone PHP configuration library with a repository, typed getters, `.env` loading, PHP config file loading, cache files, and freeze mode.
 
 ## Requirements
