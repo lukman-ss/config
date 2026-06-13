@@ -1,0 +1,41 @@
+{
+    "name": "lukman-ss/config",
+    "description": "Standalone PHP configuration repository, env loader, file loader, and cache utility.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "config",
+        "configuration",
+        "env",
+        "php",
+        "standalone"
+    ],
+    "authors": [
+        {
+            "name": "Lukman"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/lukman-ss/config/issues",
+        "source": "https://github.com/lukman-ss/config"
+    },
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lukman\\Config\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lukman\\Config\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
